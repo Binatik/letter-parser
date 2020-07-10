@@ -1,6 +1,6 @@
-let pars = document.querySelector('.decompiler_text');
+const pars = document.querySelector('.decompiler_value');
 let inp = document.querySelector('.parser__text');
-let buttonCopy = document.querySelector('.btns');
+const buttonCopy = document.querySelector('.btns');
 
 const transformText = text => {
     for (const word of words.words) {
@@ -14,5 +14,6 @@ const transformText = text => {
 buttonCopy.addEventListener('click', () => {
     let formatText = transformText(inp.value);   
     pars.innerHTML = formatText;
-    navigator.clipboard.writeText(formatText);
+    navigator.clipboard.writeText(formatText); 
+    inp.value = '';
 })
