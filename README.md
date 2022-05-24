@@ -1,5 +1,16 @@
-## web-page 
- 
-Check on the server GitHub:
+# letter-parser
+###### web-page - GitHub Pages
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://binatik.github.io/letter-parser)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://binatik.github.io/letter-parser) 
+
+## Описание
+
+Подменяет ваш текст на текст по нужным правилам. Эти правила вы сами можете изменять, если есть необходимость.
+
+## Идея
+В одной игре общение с игроком блокировалось и необходимо было как-то заменять буквы, например маленькие на большие или русские на латинские. 
+
+Тогда мне пришла в голову идея сделать что-то похожее, а по ходу получилось сделать удобный и необычный парсер который копирует результат в буфер.
+
+## Запуск
+Запустить можно нажав на зеленую кнопку в описании или скачать проект и открыть  `index.html`
